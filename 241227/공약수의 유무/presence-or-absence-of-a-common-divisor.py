@@ -4,8 +4,7 @@ flag = 0
 
 for i in range(a, b+1):
     if (1920 % i == 0) & (2880 & i == 0):
-        if i != 1:
-            flag = 1
+        flag = 1
 
 
 if flag == 0:
